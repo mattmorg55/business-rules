@@ -1,0 +1,23 @@
+﻿{
+  "Compiled": false,
+  "ReenrollmentWindowDays": 45,
+  "SvfWindowDays": 45,
+  "Rows": [
+    {
+      "Form": "SVF No Changes",
+      "InitialEnrollmentStatus": "*",
+      "ReenrollmentStatus": "*",
+      "SvfWithChangesStatus": "*",
+      "SvfNoChangesStatus": "IN_PROGRESS",
+      "UpdateFormStatus": "*",
+      "CanCreate": false,
+      "Explanation": "No previous enrollment form was found",
+      "CheckReenrollmentWindow": {
+        "Value": "NO"
+      },
+      "CheckSvfWindow": {
+        "Value": "NO"
+      }
+    }
+  ]
+}

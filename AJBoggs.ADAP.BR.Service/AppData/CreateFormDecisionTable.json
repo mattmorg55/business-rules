@@ -1,0 +1,67 @@
+﻿{
+	"Compiled": false,
+	"ReenrollmentWindowDays": 45,
+	"SvfWindowDays": 45,
+	"Rows": [
+	  {
+		"Form": "Initial Enrollment",
+		"InitialEnrollmentStatus": "NULL",
+		"ReenrollmentStatus": null,
+		"SvfWithChangesStatus": null,
+		"SvfNoChangesStatus": null,
+		"UpdateFormStatus": null,
+		"CanCreate": true,
+		"Explanation": "No other forms were found",
+		"CheckReenrollmentWindow": false,
+		"CheckSvfWindow": false
+	  },
+	  {
+		"Form": "Initial Enrollment",
+		"InitialEnrollmentStatus": "IN_PROGRESS",
+		"ReenrollmentStatus": "*",
+		"SvfWithChangesStatus": "*",
+		"SvfNoChangesStatus": "*",
+		"UpdateFormStatus": "*",
+		"CanCreate": false,
+		"Explanation": "Initial Enrollment is IN_PROCESS",
+		"CheckReenrollmentWindow": false,
+		"CheckSvfWindow": false
+	  },
+	  {
+		"Form": "SVF No Changes",
+		"InitialEnrollmentStatus": null,
+		"ReenrollmentStatus": null,
+		"SvfWithChangesStatus": "*",
+		"SvfNoChangesStatus": "*",
+		"UpdateFormStatus": "*",
+		"CanCreate": false,
+		"Explanation": "No previous enrollment form was found",
+		"CheckReenrollmentWindow": false,
+		"CheckSvfWindow": false
+	  },
+	  {
+		"Form": "SVF No Changes",
+		"InitialEnrollmentStatus": "*",
+		"ReenrollmentStatus": "*",
+		"SvfWithChangesStatus": "*",
+		"SvfNoChangesStatus": "IN_PROGRESS",
+		"UpdateFormStatus": "*",
+		"CanCreate": false,
+		"Explanation": "No previous enrollment form was found",
+		"CheckReenrollmentWindow": false,
+		"CheckSvfWindow": false
+	  },
+	  {
+		"Form": "SVF No Changes",
+		"InitialEnrollmentStatus": "APPROVED",
+		"ReenrollmentStatus": null,
+		"SvfWithChangesStatus": null,
+		"SvfNoChangesStatus": null,
+		"UpdateFormStatus": null,
+		"CanCreate": true,
+		"Explanation": "Initial Enrollment was APPROVED",
+		"CheckReenrollmentWindow": false,
+		"CheckSvfWindow": true
+	  }
+	]
+}

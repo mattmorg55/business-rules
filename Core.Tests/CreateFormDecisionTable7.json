@@ -1,0 +1,71 @@
+﻿{
+  "Compiled": false,
+  "ReenrollmentWindowDays": 45,
+  "SvfWindowDays": 45,
+  "Rows": [
+    {
+      "Form": "Initial Enrollment",
+      "InitialEnrollmentStatus": "NULL, CANCELLED, DENIED",
+      "ReenrollmentStatus": null,
+      "SvfWithChangesStatus": null,
+      "SvfNoChangesStatus": null,
+      "UpdateFormStatus": null,
+      "CanCreate": true,
+      "Explanation": "Initial Enrollment is NULL, CANCELLED, or DENIED",
+      "CheckReenrollmentWindow": {
+        "Value": "NO"
+      },
+      "CheckSvfWindow": {
+        "Value": "NO"
+      }
+    },
+    {
+      "Form": "Initial Enrollment",
+      "InitialEnrollmentStatus": "IN_PROGRESS, NEEDS_REVIEW, NEEDS_INFORMATION, APPROVED",
+      "ReenrollmentStatus": "*",
+      "SvfWithChangesStatus": "*",
+      "SvfNoChangesStatus": "*",
+      "UpdateFormStatus": "*",
+      "CanCreate": false,
+      "Explanation": "Initial Enrollment is IN_PROCESS, NEEDS_REVIEW, NEEDS_INFORMATION, or APPROVED",
+      "CheckReenrollmentWindow": {
+        "Value": "NO"
+      },
+      "CheckSvfWindow": {
+        "Value": "NO"
+      }
+    },
+    {
+      "Form": "Reenrollment",
+      "InitialEnrollmentStatus": "NULL, CANCELLED, DENIED",
+      "ReenrollmentStatus": null,
+      "SvfWithChangesStatus": null,
+      "SvfNoChangesStatus": null,
+      "UpdateFormStatus": null,
+      "CanCreate": true,
+      "Explanation": "Initial Enrollment is NULL, CANCELLED, or DENIED",
+      "CheckReenrollmentWindow": {
+        "Value": "NO"
+      },
+      "CheckSvfWindow": {
+        "Value": "NO"
+      }
+    },
+    {
+      "Form": "Reenrollment",
+      "InitialEnrollmentStatus": "APPROVED",
+      "ReenrollmentStatus": "NULL, APPROVED, CANCELLED",
+      "SvfWithChangesStatus": "NULL, APPROVED, CANCELLED",
+      "SvfNoChangesStatus": "NULL, APPROVED, CANCELLED",
+      "UpdateFormStatus": "NULL, APPROVED, CANCELLED",
+      "CanCreate": null,
+      "Explanation": "Initial Enrollment is NULL, CANCELLED, or DENIED",
+      "CheckReenrollmentWindow": {
+        "Value": "YES"
+      },
+      "CheckSvfWindow": {
+        "Value": "NO"
+      }
+    }
+  ]
+}

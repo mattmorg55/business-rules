@@ -1,0 +1,23 @@
+﻿{
+  "Compiled": false,
+  "ReenrollmentWindowDays": 45,
+  "SvfWindowDays": 45,
+  "Rows": [
+    {
+      "Form": "Initial Enrollment",
+      "InitialEnrollmentStatus": "IN_PROGRESS",
+      "ReenrollmentStatus": "*",
+      "SvfWithChangesStatus": "*",
+      "SvfNoChangesStatus": "*",
+      "UpdateFormStatus": "*",
+      "CanCreate": false,
+      "Explanation": "Initial Enrollment is IN_PROCESS",
+      "CheckReenrollmentWindow": {
+        "Value": "NO"
+      },
+      "CheckSvfWindow": {
+        "Value": "NO"
+      }
+    }
+  ]
+}
